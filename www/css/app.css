@@ -1,0 +1,242 @@
+/* Your app styles here */
+.page-content{
+    /* background-image: url("../images/popcorn.jpg"); */
+    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-fashion-movie-film-theme-background-poster-image_196478.jpg"); */
+    /* background-image: url("https://gallery.yopriceville.com/var/albums/Backgrounds/Cinema_Background.jpg?m=1399676400"); */
+    /* background-image: url("https://images.assetsdelivery.com/compings_v2/worldofvector/worldofvector1801/worldofvector180100111.jpg"); */
+    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-black-film-film-cinema-advertising-poster-background-material-image_146580.jpg"); */
+    /* background-image: url("https://p7.hiclipart.com/preview/926/948/913/popcorn-discount-theater-film-cinema-movie-theatre.jpg"); */
+    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-cartoon-minimalist-movie-background-illustration-image_189192.jpg"); */
+    /* background-image: url("https://freedesignfile.com/upload/2014/07/Movie-time-design-elements-vector-backgrounds-05.jpg"); */
+    /* background-image: url("https://images.assetsdelivery.com/compings_v2/kannaa123rf/kannaa123rf1605/kannaa123rf160500305.jpg"); */
+    /* background-image: url("../images/moviePopcorn.png"); */
+    /* background-image: url("../images/moviePopcorn2.png"); */
+    /* background-image: url("../images/moviePopcorn3.png"); */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+#main-view{
+    background-image: url("../images/moviePopcorn.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#page-movieSearch{
+    background-image: url("../images/moviePopcorn3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#searchTitle{
+    background-color: rgba(14, 13, 13, .75);
+    text-align: center;
+}
+
+.item-label{
+    background-color: rgba(14, 13, 13, .75);
+    text-align: center;
+}
+
+
+/* #navbar{
+    background-color: rgb(250, 106, 10);
+} */
+
+#navbarMovieSearch{
+    background-color: rgba(14, 13, 13, .75);
+    /* font-size: 25px; */
+    text-align: center;
+    margin: 0px auto;
+    font-family: "Vintage Warehouse";
+    padding-top: 20px;
+    color: rgb(255, 196, 0);
+}
+
+#mSearch {
+    text-align: center;
+    color: rgb(255, 196, 0);
+}
+
+#bIcon{
+ position: relative;
+ right: 30px;
+ bottom: 15px;
+}
+
+.color-custom{
+    color: rgb(255, 196, 0);
+}
+
+.navbar-inner.sliding{
+    text-align: center;
+}
+
+#navTitle{
+    font-size: 30px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+.swiper-wrapper{
+    padding-bottom: 30px;
+}
+
+.swiper-pagination{
+    margin-top: 10px;
+}
+
+#movieLink1{
+    font-size: 30px;
+    color: rgb(255, 196, 0);
+    background-color: rgba(14, 13, 13, .75);
+    width: 400px;
+    text-align: center;
+    margin: 300px auto;
+    border-radius: 80px;
+}
+
+#movieLink2{
+    font-family: "Vintage Warehouse";
+    font-size: 40px;
+    color: rgb(255, 196, 0);
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+
+#movieTitleSearch{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    width: 250px;
+    margin: 0px auto;
+    text-align: center;
+    /* padding-left: 5px; */
+}
+
+#titleInput{
+    margin: 0px auto;
+    text-align: center;
+    /* margin-left: 10px; */
+}
+
+#movieTitleSearch::placeholder{
+    color: black;
+    text-align: center;
+} 
+
+#searchBtn{
+    margin: 0px auto;
+    width: 250px;
+}
+
+.item-input-wrap{
+    margin: 0px auto;
+    /* background-color: rgba(14, 13, 13, .75); */
+    /* margin-left: -20px; */
+}
+
+#movieData{
+    margin: 0px auto;
+    font-size: 20px;
+    background-color: rgba(14, 13, 13, .75);
+    text-align: left;
+    padding-top: 20px;
+    display: none;
+}
+
+#mPoster1{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#mPoster{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#title{
+    color: white;
+    font-size: 20px;
+    padding-left: 20%; 
+}
+
+#year{
+    color: white;
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+#rated{
+    color: white;
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+#runtime{
+    color: white;
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+#genre{
+    color: white;
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+#director{
+    color: white;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+
+.swiper-wrapper{
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+span{
+    color: rgb(255, 196, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* --icons stuff-- */
+@font-face {
+    font-family: 'Framework7 Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Framework7Icons-Regular.eot");
+    src: url("../fonts/Framework7Icons-Regular.woff2") format("woff2"),
+         url("../fonts/Framework7Icons-Regular.woff") format("woff"),
+         url("../fonts/Framework7Icons-Regular.ttf") format("truetype");
+  }
+  
+  .f7-icons {
+    font-family: 'Framework7 Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    text-align: center;
+  }
+  

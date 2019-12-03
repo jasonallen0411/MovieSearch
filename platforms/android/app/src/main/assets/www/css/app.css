@@ -1,0 +1,76 @@
+/* Your app styles here */
+.page-content{
+    background-image: url("../images/popcorn.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#title{
+    background-color: black;
+    text-align: center;
+}
+
+#searchTitle{
+    background-color: black;
+    text-align: center;
+}
+
+.item-label{
+    background-color: black;
+    text-align: center;
+}
+
+
+#navbar{
+    background-color: rgb(250, 106, 10);
+}
+
+#navbarMovieSearch{
+    background-color: rgb(250, 106, 10);
+    font-size: 30px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#navTitle{
+    font-size: 30px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#movieLink{
+    font-size: 30px;
+    color: rgb(255, 196, 0);
+    background-color: black;
+}
+
+
+#movieTitleSearch{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    padding-left: 5px;
+}
+
+#movieTitleSearch::placeholder{
+    color: black;
+} 
+
+#searchBtn{
+    margin: 0px auto;
+}
+
+#movieData{
+    margin: 0px auto;
+    font-size: 20px;
+    background-color: black;
+}
+
+.swiper-wrapper{
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+span{
+    color: rgb(255, 196, 0);
+}
